@@ -17,8 +17,8 @@ _Burak Inan_
   1. we should create sql file in resources and we write a query manually
   2. we can use serial data type for id column. Because it is create id automatically
   3. we will define our sql query location inside the bean
-* Or we can create our table directly using database in DBMS
-* WARNING: In both case we should be careful to use same name with entity class. Otherwise, r2dbc couldn't find the schema
+* Or we can create our table directly using DBMS
+* WARNING: In both case we should be careful to use same name with entity class. Otherwise, r2dbc couldn't find the schemas and fields
 ---
 4. We have to import @Id annotation from springframework.data.annotation for Id field in the entity class
 ---
@@ -32,7 +32,7 @@ _Burak Inan_
   2. In this bean, we can define multiple endpoint
   3. Those endpoints don't use class path
 * With traditional method;
-  1. We can create separated method for every end point
+  1. We can create separated method for each endpoint
   2. Those endpoints use class endpoint as we know
 
 

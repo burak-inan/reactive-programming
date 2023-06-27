@@ -5,7 +5,7 @@ _Burak Inan_
 
 ---
 ## Before Starting
-### Creating Reactive Project,
+### Creating Reactive Project
 
 1. We should add webFlux, r2dbc and reactive dependency of database
 * The other dependencies are optional
@@ -39,7 +39,7 @@ _Burak Inan_
 
 ---
 ## Good To Know
-### Reactive Programming Tutorials,
+### Reactive Programming Tutorials
 
 1. https://www.youtube.com/watch?v=bXcFCgQsvAE can be watched before starting to the project. It explains logic well without database connection
 2. https://www.youtube.com/watch?v=3J_X1srMk3s&t=934s example with MongoDB database
